@@ -1,10 +1,9 @@
 const mysql = require("mysql");
 const dbConn = mysql.createConnection({
-  host: "127.0.0.1",
-  user: "root",
-  password: "root",
-  database: "node_mysql_crud_db",
-  port: "3306",
+  host: "mysql-testapi01.alwaysdata.net",
+  user: "testapi01_abc",
+  password: "apidemo",
+  database: "testapi01_node_js	 ",
 });
 dbConn.connect(function (err) {
   if (err) throw err;
