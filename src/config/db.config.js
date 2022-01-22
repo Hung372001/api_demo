@@ -1,6 +1,6 @@
 const mysql = require("mysql");
 const dbConn = mysql.createConnection({
-  host: "http://127.0.0.1/phpmyadmin/",
+  host: "127.0.0.1",
   user: "root",
   password: "",
   database: "node_mysql_crud_db",
